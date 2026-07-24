@@ -1,5 +1,7 @@
 # Orca-INDX
 
+<img src="demo.png" alt="Orca-INDX Demo Image" width="500">
+
 Tooling and docs for porting the Prusa CORE One INDX 8T presets (machine,
 process, filament) into OrcaSlicer's Prusa vendor bundle.
 
