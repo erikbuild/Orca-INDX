@@ -1,0 +1,200 @@
+{
+	"type": "filament",
+	"name": "Generic PETG @CORE One INDX",
+	"from": "system",
+	"instantiation": "true",
+	"cool_plate_temp": [
+		"60"
+	],
+	"eng_plate_temp": [
+		"0"
+	],
+	"hot_plate_temp": [
+		"85"
+	],
+	"cool_plate_temp_initial_layer": [
+		"60"
+	],
+	"eng_plate_temp_initial_layer": [
+		"0"
+	],
+	"hot_plate_temp_initial_layer": [
+		"85"
+	],
+	"overhang_fan_threshold": [
+		"95%"
+	],
+	"overhang_fan_speed": [
+		"60"
+	],
+	"slow_down_for_layer_cooling": [
+		"1"
+	],
+	"close_fan_the_first_x_layers": [
+		"3"
+	],
+	"filament_end_gcode": [
+		"; Filament-specific end gcode"
+	],
+	"filament_flow_ratio": [
+		"1"
+	],
+	"reduce_fan_stop_start_freq": [
+		"1"
+	],
+	"fan_cooling_layer_time": [
+		"25"
+	],
+	"filament_cost": [
+		"27.82"
+	],
+	"filament_density": [
+		"1.27"
+	],
+	"filament_deretraction_speed": [
+		"nil"
+	],
+	"filament_diameter": [
+		"1.75"
+	],
+	"filament_max_volumetric_speed": [
+		"17"
+	],
+	"filament_minimal_purge_on_wipe_tower": [
+		"12"
+	],
+	"filament_retraction_minimum_travel": [
+		"nil"
+	],
+	"filament_retract_before_wipe": [
+		"20"
+	],
+	"filament_retract_when_changing_layer": [
+		"nil"
+	],
+	"filament_retraction_length": [
+		"1.6"
+	],
+	"filament_z_hop": [
+		"1"
+	],
+	"filament_retract_restart_extra": [
+		"nil"
+	],
+	"filament_retraction_speed": [
+		"nil"
+	],
+	"filament_settings_id": [
+		""
+	],
+	"filament_soluble": [
+		"0"
+	],
+	"filament_type": [
+		"PETG"
+	],
+	"filament_vendor": [
+		"Generic"
+	],
+	"filament_wipe": [
+		"1"
+	],
+	"filament_wipe_distance": [
+		"nil"
+	],
+	"bed_type": [
+		"Cool Plate"
+	],
+	"nozzle_temperature_initial_layer": [
+		"245"
+	],
+	"full_fan_speed_layer": [
+		"5"
+	],
+	"fan_max_speed": [
+		"65"
+	],
+	"fan_min_speed": [
+		"30"
+	],
+	"slow_down_min_speed": [
+		"20"
+	],
+	"slow_down_layer_time": [
+		"9"
+	],
+	"filament_start_gcode": [
+		"M572 S0.052 ; Pressure advance\nM573 R"
+	],
+	"nozzle_temperature": [
+		"240"
+	],
+	"temperature_vitrification": [
+		"80"
+	],
+	"filament_id": "Generic PETG @CORE One INDX",
+	"idle_temperature": [
+		"0"
+	],
+	"nozzle_temperature_range_low": [
+		"220"
+	],
+	"nozzle_temperature_range_high": [
+		"260"
+	],
+	"setting_id": "Xnzah5FWPXDrmggK",
+	"compatible_printers": [
+		"Prusa CORE One INDX 8T 0.4 nozzle"
+	],
+	"chamber_minimal_temperature": [
+		"0"
+	],
+	"chamber_temperature": [
+		"35"
+	],
+	"filament_cooling_final_speed": [
+		"0"
+	],
+	"filament_cooling_initial_speed": [
+		"0"
+	],
+	"filament_cooling_moves": [
+		"0"
+	],
+	"filament_load_time": [
+		"8"
+	],
+	"filament_loading_speed": [
+		"0"
+	],
+	"filament_loading_speed_start": [
+		"0"
+	],
+	"filament_multitool_ramming": [
+		"1"
+	],
+	"filament_multitool_ramming_flow": [
+		"50"
+	],
+	"filament_multitool_ramming_volume": [
+		"18"
+	],
+	"filament_stamping_distance": [
+		"0"
+	],
+	"filament_stamping_loading_speed": [
+		"0"
+	],
+	"filament_toolchange_delay": [
+		"0"
+	],
+	"filament_unload_time": [
+		"3.5"
+	],
+	"filament_unloading_speed": [
+		"0"
+	],
+	"filament_unloading_speed_start": [
+		"0"
+	]
+}

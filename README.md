@@ -5,6 +5,25 @@
 Tooling and docs for porting the Prusa CORE One INDX 8T presets (machine,
 process, filament) into OrcaSlicer's Prusa vendor bundle.
 
+## Quick Start
+
+To just use the profiles (no toolchain needed):
+
+1. Download the profile files from the [latest release](../../releases/latest).
+2. Quit OrcaSlicer (2.4.2 or newer).
+3. Copy the release's `Prusa-INDX.json` and `Prusa-INDX/` folder into
+   OrcaSlicer's system profile folder:
+   - macOS: `~/Library/Application Support/OrcaSlicer/system/`
+   - Windows: `%APPDATA%\OrcaSlicer\system\`
+   - Linux: `~/.config/OrcaSlicer/system/`
+4. Restart OrcaSlicer and add **Prusa CORE One INDX 8T** in Printer Selection.
+   The 12 `@CORE One INDX` filaments and 4 processes come with it.
+
+`Prusa-INDX` is its own vendor bundle: it never touches the stock Prusa
+profiles, survives OrcaSlicer configuration updates, and uninstalls by
+deleting the two copied paths. (If you previously merged these presets into
+the stock `Prusa/` folder, undo that first to avoid duplicate presets.)
+
 The source of truth is `PrusaSlicer-Source-Configs/PrusaSlicer_2.5.5.ini` —
 the PrusaSlicer **Prusa-FFF 2.5.5** vendor configuration bundle, which
 contains the official `COREONE_INDX8T` presets. The ported Orca profiles live
@@ -16,7 +35,7 @@ here.
 ## Layout
 
 - `PrusaSlicer-Source-Configs/` — Prusa-FFF vendor bundle(s) the port is derived from
-- `output/<source-bundle>/` — the resulting Orca profiles, named after the source bundle
+- `output/<source-bundle>/` — the standalone `Prusa-INDX` vendor bundle built from that source
 - `tools/prusa_ini.py` — parses the bundle, resolves preset inheritance
 - `tools/orca_json.py` — resolves OrcaSlicer profile inheritance chains
 - `tools/keymap.py` — PrusaSlicer→Orca key maps, drop allowlist, value transforms
@@ -41,7 +60,7 @@ python3 -m tools.check_fidelity filament
 # print the resolved PrusaSlicer values used for authoring
 python3 -m tools.check_fidelity filament --expected
 
-# export the ported profiles to output/<source-bundle>/
+# build the standalone Prusa-INDX vendor bundle in output/<source-bundle>/
 python3 -m tools.export
 
 # deploy to /Applications/OrcaSlicer.app (quit Orca first)

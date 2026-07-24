@@ -1,0 +1,86 @@
+{
+	"name": "Prusa-INDX",
+	"version": "01.00.00.00",
+	"force_update": "0",
+	"description": "Prusa CORE One INDX 8T profiles, ported from the Prusa-FFF vendor bundle",
+	"machine_model_list": [
+		{
+			"name": "Prusa CORE One INDX 8T",
+			"sub_path": "machine/Prusa CORE One INDX 8T.json"
+		}
+	],
+	"process_list": [
+		{
+			"name": "0.10mm FINE @CORE One INDX 0.4",
+			"sub_path": "process/0.10mm FINE @CORE One INDX 0.4.json"
+		},
+		{
+			"name": "0.15mm DETAIL @CORE One INDX 0.4",
+			"sub_path": "process/0.15mm DETAIL @CORE One INDX 0.4.json"
+		},
+		{
+			"name": "0.20mm BALANCED @CORE One INDX 0.4",
+			"sub_path": "process/0.20mm BALANCED @CORE One INDX 0.4.json"
+		},
+		{
+			"name": "0.25mm DRAFT @CORE One INDX 0.4",
+			"sub_path": "process/0.25mm DRAFT @CORE One INDX 0.4.json"
+		}
+	],
+	"filament_list": [
+		{
+			"name": "Prusament PLA @CORE One INDX",
+			"sub_path": "filament/Prusament PLA @CORE One INDX.json"
+		},
+		{
+			"name": "Prusament PLA Blend @CORE One INDX",
+			"sub_path": "filament/Prusament PLA Blend @CORE One INDX.json"
+		},
+		{
+			"name": "Prusament rPLA @CORE One INDX",
+			"sub_path": "filament/Prusament rPLA @CORE One INDX.json"
+		},
+		{
+			"name": "Prusament Woodfill @CORE One INDX",
+			"sub_path": "filament/Prusament Woodfill @CORE One INDX.json"
+		},
+		{
+			"name": "Prusament PETG @CORE One INDX",
+			"sub_path": "filament/Prusament PETG @CORE One INDX.json"
+		},
+		{
+			"name": "Prusament ASA @CORE One INDX",
+			"sub_path": "filament/Prusament ASA @CORE One INDX.json"
+		},
+		{
+			"name": "Prusament PC Blend @CORE One INDX",
+			"sub_path": "filament/Prusament PC Blend @CORE One INDX.json"
+		},
+		{
+			"name": "Prusament PC Blend Carbon Fiber @CORE One INDX",
+			"sub_path": "filament/Prusament PC Blend Carbon Fiber @CORE One INDX.json"
+		},
+		{
+			"name": "Generic PLA @CORE One INDX",
+			"sub_path": "filament/Generic PLA @CORE One INDX.json"
+		},
+		{
+			"name": "Generic PLA Silk @CORE One INDX",
+			"sub_path": "filament/Generic PLA Silk @CORE One INDX.json"
+		},
+		{
+			"name": "Generic PETG @CORE One INDX",
+			"sub_path": "filament/Generic PETG @CORE One INDX.json"
+		},
+		{
+			"name": "Generic ABS @CORE One INDX",
+			"sub_path": "filament/Generic ABS @CORE One INDX.json"
+		}
+	],
+	"machine_list": [
+		{
+			"name": "Prusa CORE One INDX 8T 0.4 nozzle",
+			"sub_path": "machine/Prusa CORE One INDX 8T 0.4 nozzle.json"
+		}
+	]
+}
