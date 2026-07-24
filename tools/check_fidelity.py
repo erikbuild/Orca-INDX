@@ -8,9 +8,7 @@ from tools.orca_json import resolve_orca
 from tools.keymap import (MACHINE_MAP, PROCESS_MAP, FILAMENT_MAP,
                           PAIRS, VALUE_TRANSFORMS)
 
-ROOT = Path(__file__).resolve().parents[1]
-SRC_INI = ROOT / "PrusaSlicer_2.5.5.ini"
-PROFILES = ROOT / "OrcaSlicer" / "resources" / "profiles"
+from tools.paths import SRC_INI, PROFILES
 MAPS = {"machine": MACHINE_MAP, "process": PROCESS_MAP, "filament": FILAMENT_MAP}
 PS_TYPE = {"machine": "printer", "process": "print", "filament": "filament"}
 ORCA_DIR = {"machine": "machine", "process": "process", "filament": "filament"}

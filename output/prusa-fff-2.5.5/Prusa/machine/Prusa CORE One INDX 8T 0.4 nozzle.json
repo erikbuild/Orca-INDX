@@ -1,0 +1,22 @@
+{
+	"type": "machine",
+	"name": "Prusa CORE One INDX 8T 0.4 nozzle",
+	"inherits": "fdm_machine_common_coreone_indx",
+	"from": "system",
+	"setting_id": "IccF49zqcshDHAf9",
+	"instantiation": "true",
+	"printer_model": "Prusa CORE One INDX 8T",
+	"printer_variant": "0.4",
+	"nozzle_diameter": [
+		"0.4",
+		"0.4",
+		"0.4",
+		"0.4",
+		"0.4",
+		"0.4",
+		"0.4",
+		"0.4"
+	],
+	"default_filament_profile": "Prusament PLA @CORE One INDX",
+	"default_print_profile": "0.20mm BALANCED @CORE One INDX 0.4"
+}

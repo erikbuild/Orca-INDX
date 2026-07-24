@@ -1,10 +1,8 @@
 # ABOUTME: Tests for the PrusaSlicer INI bundle parser and inheritance resolver.
 # ABOUTME: Uses the real PrusaSlicer_2.5.5.ini as fixture; asserts known INDX values.
 import unittest
-from pathlib import Path
 from tools.prusa_ini import load_bundle, resolve
-
-SRC_INI = Path(__file__).resolve().parents[2] / "PrusaSlicer_2.5.5.ini"
+from tools.paths import SRC_INI
 
 class TestPrusaIni(unittest.TestCase):
     @classmethod
