@@ -1,3 +1,5 @@
 OrcaSlicer/
 .DS_Store
 __pycache__/
+*.gcode
+*.zip
