@@ -5,8 +5,8 @@
 	"nozzle_diameter": "0.4",
 	"machine_tech": "FFF",
 	"family": "Prusa",
-	"bed_model": "coreone_bed.stl",
-	"bed_texture": "coreone.svg",
+	"bed_model": "coreone_indx.stl",
+	"bed_texture": "coreone_indx.svg",
 	"hotend_model": "",
 	"default_materials": "Prusament PLA @CORE One INDX;Prusament PLA Blend @CORE One INDX;Prusament PETG @CORE One INDX;Generic PLA @CORE One INDX;Generic PLA Silk @CORE One INDX;Generic PETG @CORE One INDX;Prusament rPLA @CORE One INDX;Prusament Woodfill @CORE One INDX;Prusament PC Blend Carbon Fiber @CORE One INDX;Prusament ASA @CORE One INDX;Prusament PC Blend @CORE One INDX;Generic ABS @CORE One INDX"
 }

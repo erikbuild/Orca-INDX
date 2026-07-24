@@ -3,7 +3,6 @@
 	"name": "Prusa CORE One INDX 8T 0.4 nozzle",
 	"inherits": "fdm_machine_common_coreone_indx",
 	"from": "system",
-	"setting_id": "IccF49zqcshDHAf9",
 	"instantiation": "true",
 	"printer_model": "Prusa CORE One INDX 8T",
 	"printer_variant": "0.4",
